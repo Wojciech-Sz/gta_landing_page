@@ -37,7 +37,6 @@ const Hero = () => {
         end: '+=200%',
         scrub: 2.5,
         pin: true,
-        markers: true,
       },
     });
 
@@ -53,6 +52,7 @@ const Hero = () => {
         '.mask-wrapper',
         {
           maskSize,
+          maskPosition: maskPos,
           ease: 'power1.inOut',
         },
         '<',
